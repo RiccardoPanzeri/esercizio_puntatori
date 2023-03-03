@@ -33,7 +33,7 @@ int main() {
 	fattoriale(*pe);
 	fattoriale(*pf);
 	fattoriale(*pg);
-	cout<< "Stampo i numero fattoriali: "<< *pe<< endl<< *pf<< endl<< *pg<< endl<< endl;
+	cout<< "Stampo i numero fattoriali: "<< endl<< *pe<< endl<< *pf<< endl<< *pg<< endl<< endl;
 
 
 
