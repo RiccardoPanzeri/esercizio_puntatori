@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Desktop\Nuova cartella\definizioni.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Desktop\Nuova cartella\main.cpp">
+    <ClCompile Include="definizioni.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Desktop\Nuova cartella\prototipi.h">
+    <ClInclude Include="prototipi.h">
       <Filter>File di origine</Filter>
     </ClInclude>
   </ItemGroup>
