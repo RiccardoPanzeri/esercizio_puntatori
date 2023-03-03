@@ -15,7 +15,7 @@ int main() {
 	quad(*pb);
 	res = *pa + *pb;
 	cout <<"Il risultato è: "<< res << endl;
-	//esercizio2: creo due puntatori di tipo int e li passo per riferimento a una funzione che li scambia:
+	//esercizio2: dichiaro due puntatori di tipo int e li passo per riferimento a una funzione che li scambia:
 	int c = 12;
 	int d = 17;
 	int* pc = &c;
@@ -23,7 +23,17 @@ int main() {
 	scambia(*pc, *pd);
 	cout << "c = " << *pc << " d = " << *pd << endl;
 
-
+	//esercizio3: dichiaro dei puntatori di tipo intero e li passo per riferimento a una funzione che ne calcola il fattoriale:
+	int e = 5;
+	int f = 7;
+	int g = 10;
+	int* pe = &e;
+	int* pf = &f;
+	int* pg = &g;
+	fattoriale(*pe);
+	fattoriale(*pf);
+	fattoriale(*pg);
+	cout << "Stampo i numero fattoriali: " << *pe << endl << *pf << endl << *pg << endl;
 
 
 
