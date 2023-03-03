@@ -14,7 +14,7 @@ int main() {
 	quad(*pa);
 	quad(*pb);
 	res = *pa + *pb;
-	cout << res << endl;
+	cout <<"Il risultato è: "<< res << endl;
 	//esercizio2: creo due puntatori di tipo int e li passo per riferimento a una funzione che li scambia:
 	int c = 12;
 	int d = 17;
