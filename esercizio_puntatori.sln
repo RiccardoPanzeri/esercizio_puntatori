@@ -5,6 +5,13 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "esercizio_puntatori", "esercizio_puntatori.vcxproj", "{2919F03B-4AAC-47B7-96D3-88851128B063}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "Elementi di soluzione", "{6EFCE823-D6EA-4393-AD5C-ECF0C14BC041}"
+	ProjectSection(SolutionItems) = preProject
+		definizioni.cpp = definizioni.cpp
+		main.cpp = main.cpp
+		prototipi.h = prototipi.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
