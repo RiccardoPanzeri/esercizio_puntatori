@@ -14,14 +14,14 @@ int main() {
 	quad(*pa);
 	quad(*pb);
 	res = *pa + *pb;
-	cout <<"Il risultato è: "<< res << endl;
+	cout<<"Il risultato è: "<< res<< endl<< endl;
 	//esercizio2: dichiaro due puntatori di tipo int e li passo per riferimento a una funzione che li scambia:
 	int c = 12;
 	int d = 17;
 	int* pc = &c;
 	int* pd = &d;
 	scambia(*pc, *pd);
-	cout << "c = " << *pc << " d = " << *pd << endl;
+	cout<< "c = "<< *pc<< " d = "<< *pd<< endl<< endl;
 
 	//esercizio3: dichiaro dei puntatori di tipo intero e li passo per riferimento a una funzione che ne calcola il fattoriale:
 	int e = 5;
@@ -33,7 +33,7 @@ int main() {
 	fattoriale(*pe);
 	fattoriale(*pf);
 	fattoriale(*pg);
-	cout << "Stampo i numero fattoriali: " << *pe << endl << *pf << endl << *pg << endl;
+	cout<< "Stampo i numero fattoriali: "<< *pe<< endl<< *pf<< endl<< *pg<< endl<< endl;
 
 
 
